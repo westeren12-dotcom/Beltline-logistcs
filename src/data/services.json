@@ -1,0 +1,92 @@
+[
+  {
+    "id": "road",
+    "icon": "Truck",
+    "title": { "uz": "Avtomobil tashish", "ru": "Автоперевозки", "en": "Road Freight" },
+    "desc": {
+      "uz": "Mintaqa bo'ylab tez va xavfsiz avtomobil yuk tashish xizmati.",
+      "ru": "Быстрая и безопасная автомобильная перевозка грузов по региону.",
+      "en": "Fast and secure road freight across the region."
+    },
+    "features": {
+      "uz": ["Kunlik yo'nalishlar", "GPS kuzatuv", "Sug'urtalangan yuk"],
+      "ru": ["Ежедневные рейсы", "GPS-отслеживание", "Застрахованный груз"],
+      "en": ["Daily routes", "GPS tracking", "Insured cargo"]
+    }
+  },
+  {
+    "id": "air",
+    "icon": "Plane",
+    "title": { "uz": "Havo orqali tashish", "ru": "Авиаперевозки", "en": "Air Freight" },
+    "desc": {
+      "uz": "Shoshilinch yuklar uchun eng tezkor yetkazib berish yechimi.",
+      "ru": "Самое быстрое решение для срочных грузов.",
+      "en": "The fastest solution for urgent shipments."
+    },
+    "features": {
+      "uz": ["24-48 soat yetkazish", "Xalqaro qamrov", "Ustuvor xizmat"],
+      "ru": ["Доставка за 24-48 ч", "Международный охват", "Приоритетный сервис"],
+      "en": ["24-48h delivery", "Global coverage", "Priority handling"]
+    }
+  },
+  {
+    "id": "rail",
+    "icon": "Train",
+    "title": { "uz": "Temir yo'l tashish", "ru": "Ж/Д перевозки", "en": "Rail Freight" },
+    "desc": {
+      "uz": "Katta hajmdagi yuklar uchun tejamkor va barqaror yechim.",
+      "ru": "Экономичное и стабильное решение для больших объёмов.",
+      "en": "Cost-effective, stable solution for bulk cargo."
+    },
+    "features": {
+      "uz": ["Yuqori sig'im", "Barqaror jadval", "Past narx"],
+      "ru": ["Высокая вместимость", "Стабильный график", "Низкая цена"],
+      "en": ["High capacity", "Reliable schedule", "Lower cost"]
+    }
+  },
+  {
+    "id": "sea",
+    "icon": "Ship",
+    "title": { "uz": "Dengiz orqali tashish", "ru": "Морские перевозки", "en": "Sea Freight" },
+    "desc": {
+      "uz": "Konteyner yuklar uchun xalqaro dengiz logistikasi.",
+      "ru": "Международная морская логистика для контейнерных грузов.",
+      "en": "International ocean logistics for container cargo."
+    },
+    "features": {
+      "uz": ["FCL/LCL xizmati", "Port hamkorligi", "Konteyner kuzatuvi"],
+      "ru": ["FCL/LCL сервис", "Портовые партнёры", "Отслеживание контейнеров"],
+      "en": ["FCL/LCL service", "Port partnerships", "Container tracking"]
+    }
+  },
+  {
+    "id": "warehousing",
+    "icon": "Warehouse",
+    "title": { "uz": "Ombor xizmati", "ru": "Складские услуги", "en": "Warehousing" },
+    "desc": {
+      "uz": "Zamonaviy omborlarda xavfsiz saqlash va boshqaruv.",
+      "ru": "Безопасное хранение и управление на современных складах.",
+      "en": "Secure storage and management in modern warehouses."
+    },
+    "features": {
+      "uz": ["Inventar boshqaruvi", "Video kuzatuv", "Moslashuvchan maydon"],
+      "ru": ["Управление запасами", "Видеонаблюдение", "Гибкие площади"],
+      "en": ["Inventory management", "CCTV monitoring", "Flexible space"]
+    }
+  },
+  {
+    "id": "customs",
+    "icon": "ShieldCheck",
+    "title": { "uz": "Bojxona rasmiylashtiruvi", "ru": "Таможенное оформление", "en": "Customs Clearance" },
+    "desc": {
+      "uz": "Chegara jarayonlarini tez va muammosiz rasmiylashtirish.",
+      "ru": "Быстрое и беспроблемное таможенное оформление.",
+      "en": "Fast and hassle-free customs processing."
+    },
+    "features": {
+      "uz": ["Tajribali brokerlar", "Hujjat qo'llab-quvvatlash", "Tez rasmiylashtirish"],
+      "ru": ["Опытные брокеры", "Помощь с документами", "Быстрое оформление"],
+      "en": ["Experienced brokers", "Document support", "Fast processing"]
+    }
+  }
+]

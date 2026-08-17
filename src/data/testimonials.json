@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Ислом Каримов",
+    "position": { "uz": "Bosh direktor", "ru": "Генеральный директор", "en": "CEO" },
+    "company": "Oxiana Trade",
+    "review": {
+      "uz": "Beltline Logistics bilan ishlash juda qulay — yetkazib berish har doim o'z vaqtida va jarayon to'liq shaffof.",
+      "ru": "Работать с Beltline Logistics очень удобно — доставка всегда вовремя, процесс полностью прозрачен.",
+      "en": "Working with Beltline Logistics is seamless — deliveries are always on time and the process is fully transparent."
+    },
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Aziz Rahimov",
+    "position": { "uz": "Xarid bo'limi boshlig'i", "ru": "Руководитель отдела закупок", "en": "Procurement Manager" },
+    "company": "TransAsia Group",
+    "review": {
+      "uz": "Bojxona rasmiylashtiruvi tezligi va jamoaning professionalligi bizni doimiy mijozga aylantirdi.",
+      "ru": "Скорость таможенного оформления и профессионализм команды сделали нас постоянными клиентами.",
+      "en": "The speed of customs clearance and the team's professionalism turned us into a loyal customer."
+    },
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Dilnoza Yusupova",
+    "position": { "uz": "Logistika menejeri", "ru": "Менеджер по логистике", "en": "Logistics Manager" },
+    "company": "Silk Road Import",
+    "review": {
+      "uz": "Kuzatuv tizimi va narx kalkulyatori ish jarayonimizni sezilarli darajada tezlashtirdi.",
+      "ru": "Система отслеживания и калькулятор цен значительно ускорили наш рабочий процесс.",
+      "en": "The tracking system and price calculator significantly sped up our workflow."
+    },
+    "rating": 5
+  }
+]

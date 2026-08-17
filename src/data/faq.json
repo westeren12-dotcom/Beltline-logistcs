@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "question": {
+      "uz": "Yukni qanday kuzatishim mumkin?",
+      "ru": "Как отследить мой груз?",
+      "en": "How can I track my shipment?"
+    },
+    "answer": {
+      "uz": "Sizga berilgan kuzatuv raqamini \"Kuzatuv\" bo'limiga kiritish orqali yukingiz holatini real vaqt rejimida ko'rishingiz mumkin.",
+      "ru": "Введите выданный вам номер отслеживания в разделе «Отслеживание», чтобы видеть статус груза в реальном времени.",
+      "en": "Enter your tracking number in the Tracking section to see your shipment's status in real time."
+    }
+  },
+  {
+    "id": 2,
+    "question": {
+      "uz": "Yetkazib berish qancha vaqt oladi?",
+      "ru": "Сколько времени занимает доставка?",
+      "en": "How long does delivery take?"
+    },
+    "answer": {
+      "uz": "Muddat yo'nalish va transport turiga bog'liq — 1 kundan 12 kungacha. Aniq muddatni \"Yo'nalishlar\" bo'limida yoki kalkulyator orqali bilishingiz mumkin.",
+      "ru": "Срок зависит от маршрута и типа транспорта — от 1 до 12 дней. Точный срок можно узнать в разделе «Маршруты».",
+      "en": "Delivery time depends on route and transport type — from 1 to 12 days. Check the Routes section for exact estimates."
+    }
+  },
+  {
+    "id": 3,
+    "question": {
+      "uz": "Yukim sug'urtalanganmi?",
+      "ru": "Застрахован ли мой груз?",
+      "en": "Is my cargo insured?"
+    },
+    "answer": {
+      "uz": "Ha, siz narx so'rovi yoki kalkulyator orqali qo'shimcha sug'urta xizmatini tanlashingiz mumkin — bu yukingizni to'liq himoya qiladi.",
+      "ru": "Да, вы можете выбрать дополнительную страховку при запросе цены или в калькуляторе — это полностью защитит ваш груз.",
+      "en": "Yes, you can add insurance when requesting a quote or in the calculator — it fully protects your shipment."
+    }
+  },
+  {
+    "id": 4,
+    "question": {
+      "uz": "Bojxona rasmiylashtiruvi bilan yordam berasizmi?",
+      "ru": "Помогаете ли вы с таможенным оформлением?",
+      "en": "Do you assist with customs clearance?"
+    },
+    "answer": {
+      "uz": "Albatta. Bizning tajribali brokerlarimiz barcha hujjatlarni tayyorlashda va chegara jarayonlarini tezlashtirishda yordam beradi.",
+      "ru": "Конечно. Наши опытные брокеры помогут подготовить все документы и ускорить таможенные процессы.",
+      "en": "Absolutely. Our experienced brokers help prepare all documents and speed up border processes."
+    }
+  },
+  {
+    "id": 5,
+    "question": {
+      "uz": "Qanday to'lov usullari mavjud?",
+      "ru": "Какие способы оплаты доступны?",
+      "en": "What payment methods are available?"
+    },
+    "answer": {
+      "uz": "Naqd, bank o'tkazmasi va korporativ shartnoma asosida to'lov qilishingiz mumkin. Batafsil ma'lumot uchun aloqa bo'limiga murojaat qiling.",
+      "ru": "Вы можете оплатить наличными, банковским переводом или по корпоративному договору. Подробности — в разделе контактов.",
+      "en": "You can pay by cash, bank transfer, or corporate contract. Contact us for more details."
+    }
+  }
+]

@@ -1,0 +1,6 @@
+[
+  { "key": "deliveries", "value": 25000, "suffix": "+" },
+  { "key": "onTime", "value": 99, "suffix": "%" },
+  { "key": "countries", "value": 18, "suffix": "+" },
+  { "key": "fleet", "value": 150, "suffix": "+" }
+]

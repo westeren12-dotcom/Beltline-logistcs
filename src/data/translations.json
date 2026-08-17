@@ -1,0 +1,119 @@
+{
+  "uz": {
+    "nav": { "home": "Bosh sahifa", "services": "Xizmatlar", "tracking": "Kuzatuv", "calculator": "Kalkulyator", "routes": "Yo'nalishlar", "about": "Biz haqimizda", "contact": "Aloqa", "quote": "Narx so'rash" },
+
+    "topbar": { "hours": "Dush-Shan: 09:00 - 19:00" },
+    "hero": {
+      "badge": "Global Logistika Platformasi",
+      "title1": "Biznesingizni",
+      "title2": "Oldinga Olib Boramiz",
+      "subtitle": "Beltline Logistics — dunyo bo'ylab tez, xavfsiz va ishonchli yuk tashish yechimlari. Zamonaviy texnologiyalar bilan biznesingizni yangi bosqichga olib chiqing.",
+      "trackBtn": "Yukni kuzatish",
+      "quoteBtn": "Narx so'rash",
+      "stats": { "deliveries": "Yetkazib berilgan", "onTime": "O'z vaqtida", "countries": "Davlatlar", "fleet": "Transport parki" }
+    },
+    "live": { "title": "Jonli Kuzatuv", "tracking": "Kuzatuv raqami", "status": "Holat", "eta": "Yetib borish vaqti", "driver": "Haydovchi", "weight": "Yuk og'irligi", "inTransit": "Yo'lda" },
+    "calc": {
+      "title": "Narxni Hisoblang",
+      "subtitle": "Yukingiz uchun taxminiy narxni bir necha soniyada bilib oling",
+      "origin": "Jo'natish manzili",
+      "destination": "Manzil",
+      "cargoType": "Yuk turi",
+      "weight": "Og'irlik (kg)",
+      "volume": "Hajm (m³)",
+      "transport": "Transport turi",
+      "insurance": "Sug'urta",
+      "priority": "Muhimlik darajasi",
+      "calculate": "Hisoblash",
+      "result": "Taxminiy narx",
+      "cargoTypes": ["Umumiy yuk", "Sinuvchan", "Sovutgichli", "Og'ir texnika", "Xavfli yuk"],
+      "transportTypes": ["Avtomobil", "Havo", "Temir yo'l", "Dengiz"],
+      "priorityTypes": ["Standart", "Tezkor", "Ekspress"],
+      "yes": "Ha", "no": "Yo'q"
+    },
+    "footer": {
+      "desc": "Beltline Logistics — ishonchli hamkoringiz xalqaro va mahalliy yuk tashishda.",
+      "company": "Kompaniya", "services": "Xizmatlar", "links": "Tezkor havolalar", "contactTitle": "Aloqa",
+      "newsletter": "Yangiliklarga obuna bo'ling", "subscribe": "Obuna bo'lish",
+      "rights": "Barcha huquqlar himoyalangan."
+    }
+  },
+  "ru": {
+    "nav": { "home": "Главная", "services": "Услуги", "tracking": "Отслеживание", "calculator": "Калькулятор", "routes": "Маршруты", "about": "О нас", "contact": "Контакты", "quote": "Запросить цену" },
+
+    "topbar": { "hours": "Пн-Сб: 09:00 - 19:00" },
+    "hero": {
+      "badge": "Глобальная логистическая платформа",
+      "title1": "Двигаем ваш бизнес",
+      "title2": "Вперёд",
+      "subtitle": "Beltline Logistics — быстрые, безопасные и надёжные решения по доставке грузов по всему миру.",
+      "trackBtn": "Отследить груз",
+      "quoteBtn": "Запросить цену",
+      "stats": { "deliveries": "Доставок", "onTime": "Вовремя", "countries": "Стран", "fleet": "Автопарк" }
+    },
+    "live": { "title": "Live Отслеживание", "tracking": "Номер отслеживания", "status": "Статус", "eta": "Ожидаемое прибытие", "driver": "Водитель", "weight": "Вес груза", "inTransit": "В пути" },
+    "calc": {
+      "title": "Рассчитать стоимость",
+      "subtitle": "Узнайте примерную стоимость доставки за секунды",
+      "origin": "Пункт отправления",
+      "destination": "Пункт назначения",
+      "cargoType": "Тип груза",
+      "weight": "Вес (кг)",
+      "volume": "Объём (м³)",
+      "transport": "Тип транспорта",
+      "insurance": "Страховка",
+      "priority": "Приоритет",
+      "calculate": "Рассчитать",
+      "result": "Примерная стоимость",
+      "cargoTypes": ["Обычный груз", "Хрупкий", "Рефрижератор", "Тяжёлая техника", "Опасный груз"],
+      "transportTypes": ["Автомобильный", "Авиа", "Железная дорога", "Морской"],
+      "priorityTypes": ["Стандарт", "Срочно", "Экспресс"],
+      "yes": "Да", "no": "Нет"
+    },
+    "footer": {
+      "desc": "Beltline Logistics — надёжный партнёр в международных и локальных перевозках.",
+      "company": "Компания", "services": "Услуги", "links": "Быстрые ссылки", "contactTitle": "Контакты",
+      "newsletter": "Подпишитесь на новости", "subscribe": "Подписаться",
+      "rights": "Все права защищены."
+    }
+  },
+  "en": {
+    "nav": { "home": "Home", "services": "Services", "tracking": "Tracking", "calculator": "Calculator", "routes": "Routes", "about": "About Us", "contact": "Contact", "quote": "Request Quote" },
+
+    "topbar": { "hours": "Mon-Sat: 09:00 - 19:00" },
+    "hero": {
+      "badge": "Global Logistics Platform",
+      "title1": "Delivering Your Business",
+      "title2": "Forward",
+      "subtitle": "Beltline Logistics — fast, secure and reliable freight solutions across the globe. Take your business to the next level with modern technology.",
+      "trackBtn": "Track Shipment",
+      "quoteBtn": "Request Quote",
+      "stats": { "deliveries": "Deliveries", "onTime": "On-Time", "countries": "Countries", "fleet": "Fleet Vehicles" }
+    },
+    "live": { "title": "Live Tracking", "tracking": "Tracking Number", "status": "Status", "eta": "Estimated Arrival", "driver": "Driver", "weight": "Cargo Weight", "inTransit": "In Transit" },
+    "calc": {
+      "title": "Calculate Your Price",
+      "subtitle": "Get an instant estimate for your shipment in seconds",
+      "origin": "Origin",
+      "destination": "Destination",
+      "cargoType": "Cargo Type",
+      "weight": "Weight (kg)",
+      "volume": "Volume (m³)",
+      "transport": "Transport Type",
+      "insurance": "Insurance",
+      "priority": "Priority",
+      "calculate": "Calculate",
+      "result": "Estimated Cost",
+      "cargoTypes": ["General Cargo", "Fragile", "Refrigerated", "Heavy Machinery", "Hazardous"],
+      "transportTypes": ["Road", "Air", "Rail", "Sea"],
+      "priorityTypes": ["Standard", "Express", "Priority"],
+      "yes": "Yes", "no": "No"
+    },
+    "footer": {
+      "desc": "Beltline Logistics — your trusted partner in international and local freight.",
+      "company": "Company", "services": "Services", "links": "Quick Links", "contactTitle": "Contact",
+      "newsletter": "Subscribe to updates", "subscribe": "Subscribe",
+      "rights": "All rights reserved."
+    }
+  }
+}

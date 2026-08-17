@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Sardor Aliyev", "role": { "uz": "Bosh direktor", "ru": "Генеральный директор", "en": "CEO" } },
+  { "id": 2, "name": "Nodira Karimova", "role": { "uz": "Operatsiyalar boshlig'i", "ru": "Руководитель операций", "en": "Head of Operations" } },
+  { "id": 3, "name": "Jasur Toshev", "role": { "uz": "Logistika menejeri", "ru": "Менеджер по логистике", "en": "Logistics Manager" } },
+  { "id": 4, "name": "Malika Yo'ldosheva", "role": { "uz": "Mijozlar bilan ishlash", "ru": "Работа с клиентами", "en": "Client Relations" } }
+]

@@ -1,0 +1,68 @@
+{
+  "uz": {
+    "badge": "Biz Haqimizda",
+    "title1": "Ishonchli Hamkoringiz",
+    "title2": "Xalqaro Logistikada",
+    "intro": "Beltline Logistics — yuk tashish sohasida zamonaviy texnologiyalar va professional yondashuv bilan ish yurituvchi kompaniya. Biz mijozlarimizga tez, xavfsiz va shaffof logistika yechimlarini taqdim etamiz.",
+    "storyTitle": "Bizning Tariximiz",
+    "story": "Kompaniyamiz kichik jamoadan boshlanib, bugungi kunda mintaqadagi eng ishonchli logistika xizmat ko'rsatuvchilaridan biriga aylandi. Har bir loyihada mijozlarimizning ehtiyojlarini birinchi o'ringa qo'yamiz va doimiy rivojlanishga intilamiz.",
+    "missionTitle": "Bizning Missiyamiz",
+    "mission": "Har bir yukni o'z vaqtida, xavfsiz va eng qulay narxda manziliga yetkazish orqali mijozlarimiz biznesining o'sishiga hissa qo'shish.",
+    "valuesTitle": "Bizning Qadriyatlarimiz",
+    "values": [
+      { "title": "Ishonchlilik", "desc": "Har bir va'damizga to'liq javobgarmiz." },
+      { "title": "Shaffoflik", "desc": "Jarayonning har bosqichida ochiq aloqa." },
+      { "title": "Innovatsiya", "desc": "Zamonaviy texnologiyalarni doimiy joriy etamiz." },
+      { "title": "Mijozga yo'naltirilganlik", "desc": "Har bir qaror mijoz manfaati asosida qabul qilinadi." }
+    ],
+    "teamTitle": "Jamoamiz",
+    "teamSubtitle": "Logistika sohasidagi tajribali mutaxassislar jamoasi",
+    "statsTitle": "Raqamlarda Biz",
+    "ctaTitle": "Hamkorlikni Boshlashga Tayyormisiz?",
+    "ctaBtn": "Biz bilan bog'laning"
+  },
+  "ru": {
+    "badge": "О Нас",
+    "title1": "Ваш Надёжный Партнёр",
+    "title2": "В Международной Логистике",
+    "intro": "Beltline Logistics — компания в сфере грузоперевозок, работающая с использованием современных технологий и профессионального подхода. Мы предоставляем клиентам быстрые, безопасные и прозрачные логистические решения.",
+    "storyTitle": "Наша История",
+    "story": "Наша компания начиналась с небольшой команды и сегодня стала одним из самых надёжных логистических операторов в регионе. В каждом проекте мы ставим потребности клиентов на первое место и стремимся к постоянному развитию.",
+    "missionTitle": "Наша Миссия",
+    "mission": "Способствовать росту бизнеса наших клиентов, доставляя каждый груз вовремя, безопасно и по оптимальной цене.",
+    "valuesTitle": "Наши Ценности",
+    "values": [
+      { "title": "Надёжность", "desc": "Мы полностью отвечаем за каждое обещание." },
+      { "title": "Прозрачность", "desc": "Открытая коммуникация на каждом этапе процесса." },
+      { "title": "Инновации", "desc": "Постоянно внедряем современные технологии." },
+      { "title": "Клиентоориентированность", "desc": "Каждое решение принимается в интересах клиента." }
+    ],
+    "teamTitle": "Наша Команда",
+    "teamSubtitle": "Команда опытных специалистов в сфере логистики",
+    "statsTitle": "Мы в Цифрах",
+    "ctaTitle": "Готовы Начать Сотрудничество?",
+    "ctaBtn": "Свяжитесь с нами"
+  },
+  "en": {
+    "badge": "About Us",
+    "title1": "Your Trusted Partner",
+    "title2": "In International Logistics",
+    "intro": "Beltline Logistics is a freight company operating with modern technology and a professional approach. We provide clients with fast, secure, and transparent logistics solutions.",
+    "storyTitle": "Our Story",
+    "story": "Our company started as a small team and has grown into one of the most trusted logistics providers in the region. In every project, we put our clients' needs first and strive for continuous growth.",
+    "missionTitle": "Our Mission",
+    "mission": "To contribute to our clients' business growth by delivering every shipment on time, safely, and at the best price.",
+    "valuesTitle": "Our Values",
+    "values": [
+      { "title": "Reliability", "desc": "We take full responsibility for every promise." },
+      { "title": "Transparency", "desc": "Open communication at every stage of the process." },
+      { "title": "Innovation", "desc": "We continuously adopt modern technology." },
+      { "title": "Client Focus", "desc": "Every decision is made with the client's interest in mind." }
+    ],
+    "teamTitle": "Our Team",
+    "teamSubtitle": "A team of experienced logistics professionals",
+    "statsTitle": "By The Numbers",
+    "ctaTitle": "Ready to Start Working Together?",
+    "ctaBtn": "Contact Us"
+  }
+}

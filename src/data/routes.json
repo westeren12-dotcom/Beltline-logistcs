@@ -1,0 +1,10 @@
+[
+  { "id": "china", "flag": "🇨🇳", "country": { "uz": "Xitoy", "ru": "Китай", "en": "China" }, "time": "7-10 kun", "transport": "Sea / Rail", "cost": "$450+" },
+  { "id": "turkey", "flag": "🇹🇷", "country": { "uz": "Turkiya", "ru": "Турция", "en": "Turkey" }, "time": "5-8 kun", "transport": "Road", "cost": "$380+" },
+  { "id": "germany", "flag": "🇩🇪", "country": { "uz": "Germaniya", "ru": "Германия", "en": "Germany" }, "time": "9-12 kun", "transport": "Road / Rail", "cost": "$520+" },
+  { "id": "uae", "flag": "🇦🇪", "country": { "uz": "BAA", "ru": "ОАЭ", "en": "UAE" }, "time": "4-6 kun", "transport": "Air / Sea", "cost": "$410+" },
+  { "id": "kazakhstan", "flag": "🇰🇿", "country": { "uz": "Qozog'iston", "ru": "Казахстан", "en": "Kazakhstan" }, "time": "2-3 kun", "transport": "Road", "cost": "$180+" },
+  { "id": "russia", "flag": "🇷🇺", "country": { "uz": "Rossiya", "ru": "Россия", "en": "Russia" }, "time": "4-6 kun", "transport": "Road / Rail", "cost": "$320+" },
+  { "id": "southkorea", "flag": "🇰🇷", "country": { "uz": "Janubiy Koreya", "ru": "Южная Корея", "en": "South Korea" }, "time": "8-11 kun", "transport": "Sea / Air", "cost": "$490+" },
+  { "id": "uzbekistan", "flag": "🇺🇿", "country": { "uz": "O'zbekiston", "ru": "Узбекистан", "en": "Uzbekistan" }, "time": "1-2 kun", "transport": "Road", "cost": "$90+" }
+]
