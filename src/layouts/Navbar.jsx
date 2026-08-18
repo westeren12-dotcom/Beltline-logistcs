@@ -2,22 +2,18 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Sun, Moon, Truck } from 'lucide-react';
+import { FaTelegramPlane, FaInstagram } from 'react-icons/fa';
 import TopBar from './TopBar.jsx';
 import MagneticButton from '../components/MagneticButton.jsx';
 import { useTheme } from '../context/ThemeContext.jsx';
 import { useLang } from '../context/LangContext.jsx';
 import company from '../data/company.json';
-import { FaTelegramPlane, FaInstagram } from 'react-icons/fa';
-import { useLang } from '../context/LangContext.jsx';
-
 
 export default function Navbar() {
-  const { isDark, toggleTheme } = useTheme();
-  const { t, lang, changeLang } = useLang();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const { isDark, toggleTheme } = useTheme();
-  const { t } = useLang();
+  const { t, lang, changeLang } = useLang();
   const location = useLocation();
 
   useEffect(() => {
@@ -53,7 +49,6 @@ export default function Navbar() {
         className="backdrop-blur-xl border-b"
       >
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          {/* Logo */}
           <Link to="/" className="flex items-center gap-2.5 group">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-electric-500 to-cyan-400 flex items-center justify-center shadow-lg shadow-electric-500/30 group-hover:scale-105 transition-transform">
               <Truck size={20} className="text-white" />
@@ -63,16 +58,16 @@ export default function Navbar() {
             </span>
           </Link>
 
-          {/* Desktop nav */}
           <div className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => (
               <Link
                 key={link.to}
                 to={link.to}
-                className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors ${location.pathname === link.to
-                  ? 'text-electric-500 dark:text-cyan-300'
-                  : 'text-slate-600 dark:text-slate-300 hover:text-electric-500 dark:hover:text-cyan-300'
-                  }`}
+                className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors ${
+                  location.pathname === link.to
+                    ? 'text-electric-500 dark:text-cyan-300'
+                    : 'text-slate-600 dark:text-slate-300 hover:text-electric-500 dark:hover:text-cyan-300'
+                }`}
               >
                 {link.label}
                 {location.pathname === link.to && (
@@ -85,7 +80,6 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Right side */}
           <div className="flex items-center gap-3">
             <button
               onClick={toggleTheme}
@@ -104,24 +98,6 @@ export default function Navbar() {
                 </motion.div>
               </AnimatePresence>
             </button>
-
-            {/* Login / Sign Up */}
-            <div className="hidden md:flex items-center gap-2">
-              <Link
-                to="/login"
-                className="px-4 py-2.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300
-                           hover:text-electric-500 dark:hover:text-cyan-300 transition-colors"
-              >
-                {t.nav.login}
-              </Link>
-              <Link
-                to="/signup"
-                className="px-4 py-2.5 rounded-full text-sm font-semibold border border-electric-500/30
-                           text-electric-500 dark:text-cyan-300 hover:bg-electric-500/10 transition-colors"
-              >
-                {t.nav.signup}
-              </Link>
-            </div>
 
             <MagneticButton>
               <Link
@@ -145,7 +121,6 @@ export default function Navbar() {
         </div>
       </motion.nav>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -159,10 +134,11 @@ export default function Navbar() {
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`py-3 px-3 rounded-lg text-sm font-medium ${location.pathname === link.to
+                  className={`py-3 px-3 rounded-lg text-sm font-medium ${
+                    location.pathname === link.to
                       ? 'text-electric-500 dark:text-cyan-300 bg-electric-500/10'
                       : 'text-slate-600 dark:text-slate-300'
-                    }`}
+                  }`}
                 >
                   {link.label}
                 </Link>
@@ -205,7 +181,6 @@ export default function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
-
-    </header >
+    </header>
   );
 }
