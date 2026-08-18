@@ -7,8 +7,13 @@ import MagneticButton from '../components/MagneticButton.jsx';
 import { useTheme } from '../context/ThemeContext.jsx';
 import { useLang } from '../context/LangContext.jsx';
 import company from '../data/company.json';
+import { FaTelegramPlane, FaInstagram } from 'react-icons/fa';
+import { useLang } from '../context/LangContext.jsx';
+
 
 export default function Navbar() {
+  const { isDark, toggleTheme } = useTheme();
+  const { t, lang, changeLang } = useLang();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const { isDark, toggleTheme } = useTheme();
@@ -64,11 +69,10 @@ export default function Navbar() {
               <Link
                 key={link.to}
                 to={link.to}
-                className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors ${
-                  location.pathname === link.to
-                    ? 'text-electric-500 dark:text-cyan-300'
-                    : 'text-slate-600 dark:text-slate-300 hover:text-electric-500 dark:hover:text-cyan-300'
-                }`}
+                className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors ${location.pathname === link.to
+                  ? 'text-electric-500 dark:text-cyan-300'
+                  : 'text-slate-600 dark:text-slate-300 hover:text-electric-500 dark:hover:text-cyan-300'
+                  }`}
               >
                 {link.label}
                 {location.pathname === link.to && (
@@ -155,37 +159,53 @@ export default function Navbar() {
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`py-3 px-3 rounded-lg text-sm font-medium ${
-                    location.pathname === link.to
+                  className={`py-3 px-3 rounded-lg text-sm font-medium ${location.pathname === link.to
                       ? 'text-electric-500 dark:text-cyan-300 bg-electric-500/10'
                       : 'text-slate-600 dark:text-slate-300'
-                  }`}
+                    }`}
                 >
                   {link.label}
                 </Link>
               ))}
+
               <Link
                 to="/contact"
                 className="mt-2 text-center py-3 rounded-full font-semibold text-sm text-white bg-gradient-to-r from-electric-500 to-cyan-500"
               >
                 {t.nav.quote}
               </Link>
-              <Link
-                to="/login"
-                className="mt-2 text-center py-3 rounded-full font-semibold text-sm text-electric-500 dark:text-cyan-300 border border-electric-500/30"
-              >
-                {t.nav.login}
-              </Link>
-              <Link
-                to="/signup"
-                className="mt-2 text-center py-3 rounded-full font-semibold text-sm text-white bg-navy-900 dark:bg-white/10"
-              >
-                {t.nav.signup}
-              </Link>
+
+              <div className="flex items-center justify-between mt-5 pt-5 border-t border-white/10">
+                <div className="flex items-center gap-1">
+                  {['uz', 'ru', 'en'].map((code) => (
+                    <button
+                      key={code}
+                      onClick={() => changeLang(code)}
+                      className={
+                        lang === code
+                          ? 'px-3 py-1.5 rounded-full text-xs font-semibold transition-colors bg-electric-500/20 text-cyan-400 border border-electric-500/40'
+                          : 'px-3 py-1.5 rounded-full text-xs font-semibold transition-colors text-slate-500 dark:text-slate-400'
+                      }
+                    >
+                      {code.toUpperCase()}
+                    </button>
+                  ))}
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <a href={company.telegram} target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full glass border-gradient flex items-center justify-center text-slate-600 dark:text-slate-300" aria-label="Telegram">
+                    <FaTelegramPlane size={14} />
+                  </a>
+                  <a href={company.instagram} target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full glass border-gradient flex items-center justify-center text-slate-600 dark:text-slate-300" aria-label="Instagram">
+                    <FaInstagram size={14} />
+                  </a>
+                </div>
+              </div>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
-    </header>
+
+    </header >
   );
 }
